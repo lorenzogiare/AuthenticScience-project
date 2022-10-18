@@ -1,0 +1,4 @@
+Django==3.0.5
+easygui==0.98.3
+environ==1.0
+web3==5.30.0
