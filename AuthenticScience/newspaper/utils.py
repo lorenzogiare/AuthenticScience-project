@@ -8,7 +8,7 @@ from datetime import datetime
 def sendTransaction(message):
     w3 = Web3(Web3.HTTPProvider('https://goerli.infura.io/v3/17b153bb0c384e5995ee7a12b450370e'))
     address = '0x58Df929b9Aa49892A915450a9A8c26f936F06dbA'
-    privateKey = "0x5f4800cfb7f42c232ed01ce7b601df3be64d0d5f5d3ab4624c5d1465715fe06d"
+    privateKey = "***********************************************"
     nonce = w3.eth.getTransactionCount(address)
     gasPrice = w3.eth.gasPrice
     value = w3.toWei(0, 'ether')
